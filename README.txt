@@ -1,1 +1,0 @@
-İmaj Erkek Kuaförü: 12 aylık tarih aralığı, 30 günlük sayfalar, 20 dakikalık randevular ve admin girişi. index.html dosyasını açın. Not: veriler yalnızca aynı tarayıcıda tutulur; gerçek çok kullanıcılı kullanım için sunucu gerekir.
