@@ -1,0 +1,1 @@
+index.html dosyasina cift tiklayarak siteyi acin. CMD veya sunucu gerekmez. Randevu islemleri icin internet ve Supabase baglantisi gereklidir.
