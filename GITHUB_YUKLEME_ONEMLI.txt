@@ -1,0 +1,10 @@
+BEYAZ EKRAN DUZELTME - GITHUB PAGES
+
+Bu ZIP kaynak projedir, dogrudan index.html yayinlanamaz.
+1) ZIP icindeki dosyalari GitHub deponuzun kokune yukleyin (ozellikle .github/workflows/pages.yml).
+2) GitHub > Settings > Pages > Source: GitHub Actions secin.
+3) Actions sekmesinde "Kuafor sitesini yayinla" is akisini acin. Gerekirse Run workflow tiklayin.
+4) Build ve deploy adimlari YESIL olunca siteyi Ctrl+F5 ile yenileyin.
+5) Hala /src/main.tsx 404 gorunuyorsa kaynak dosyalari yayinlayan eski Pages is akisini kapatin; dogru is akisi dist klasorunu yayinlamalidir.
+
+UYARI: Derlenmis dist bu ZIP'te yoktur; GitHub Actions derler.
