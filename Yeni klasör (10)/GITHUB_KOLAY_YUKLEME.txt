@@ -1,0 +1,13 @@
+IMAJ ERKEK KUAFORU - GITHUB PAGES
+
+1) ZIP dosyasini bilgisayarinda klasore cikar.
+2) GitHub onacweb/DENEME deposunda Add file > Upload files sec.
+3) Cikardigin dosyalari ve klasorleri yukle. .github/workflows/pages.yml dosyasinin da yuklendiginden emin ol.
+4) Settings > Pages > Build and deployment > Source = GitHub Actions sec.
+5) Actions sekmesindeki 'Kuafor sitesini yayinla' isleminin yesil olmasini bekle.
+
+ONEMLI: .github klasoru gizli olabilir; GitHub web yuklemesi gizli klasorleri atlayabilir. Boyle bir durumda .github/workflows/pages.yml dosyasini GitHub arayuzunde ayni yolda olustur.
+
+Bu proje React/Vite kaynak kodudur. GitHub Actions otomatik derler. Bu ortamda npm kurulumu zaman asimina ugradigi icin derleme dogrulanamadi.
+
+Randevular ve admin girisi Supabase baglantisina baglidir. Yalnizca siteyi yayinlamak admin hesaplarini veritabaninda olusturmaz.
