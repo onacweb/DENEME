@@ -1,0 +1,14 @@
+İMAJ ERKEK KUAFÖRÜ - GITHUB YAYINLAMA
+
+Bu proje React/Vite kaynak kodudur. index.html dosyasını tek başına açmak beyaz ekran oluşturabilir.
+
+1. GitHub deposuna ZIP içindeki TÜM dosyaları ve .github/workflows/pages.yml dosyasını klasör yapısını koruyarak yükleyin.
+2. GitHub > Settings > Pages > Source: GitHub Actions seçin.
+3. Actions sayfasında "Kuafor sitesini yayinla" çalışmasının yeşil olmasını bekleyin.
+4. Siteyi https://onacweb.github.io/DENEME/ adresinden kontrol edin.
+
+ÖNEMLİ: GitHub web arayüzünden ZIP yüklemek ZIP dosyasını açmaz. Önce bilgisayarda çıkarıp dosyaları yükleyin. Gizli .github klasörü de yüklenmelidir.
+
+Güvenlik: .env içinde yalnızca herkese açık Supabase anon/publishable anahtarı bulunmalıdır; service_role veya secret key asla GitHub deposuna yüklenmemelidir.
+
+Bu ortamda bağımlılıkların indirilmesi zaman aşımına uğradığından derleme doğrulanamadı.
